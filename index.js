@@ -282,12 +282,7 @@
                         break;
                 }
             }
-        }, 
-// Override agar Dino kebal (tidak mati saat tabrakan)
-Runner.prototype.gameOver = function () {
-  console.log("💥 Dino tabrak, tapi kebal. Tidak game over!");
-};
-
+        },
         /**
          * Cache the appropriate image sprite from the page and get the sprite sheet
          * definition.
